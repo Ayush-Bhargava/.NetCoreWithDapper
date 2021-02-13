@@ -1,4 +1,5 @@
 ﻿using DoodleBlue.Data;
+using DoodleBlue.Repositories.Entities;
 using DoodleBlue.Repositories.Interface;
 using System;
 using System.Collections.Generic;
@@ -18,9 +19,9 @@ namespace DoodleBlue.Repositories
             _dapperQuery = dapperQuery;
         }
 
-        public async Task<IEnumerable<string>> GetLead()
+        public async Task<IEnumerable<LeadInformation>> GetLead()
         {
-            return await _dapperQuery.QueryListFromProcAsync<string>(SPROC_GET_LEAD, null);
+            return await _dapperQuery.QueryListFromProcAsync<LeadInformation>(SPROC_GET_LEAD, null);
         }
     }
 }

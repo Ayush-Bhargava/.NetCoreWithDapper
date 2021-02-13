@@ -2,6 +2,7 @@ using DoodleBlue.Data;
 using DoodleBlue.Data.ConnectionConfiguration;
 using DoodleBlue.Handlers;
 using DoodleBlue.Repositories;
+using DoodleBlueMappers;
 using MediatR;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
@@ -31,6 +32,7 @@ namespace DoodleBlue
                 .RegisterRepositories()
                 .RegisterDapperData(Configuration)
                 .RegisterRequestHandler()
+                .RegisterAutoMappers()
                 .AddControllers();
         }
 
