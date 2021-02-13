@@ -1,4 +1,5 @@
 ﻿using DoodleBlue.Contracts.Requests;
+using DoodleBlue.Contracts.Response;
 using MediatR;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
@@ -9,7 +10,7 @@ using System.Threading.Tasks;
 
 namespace DoodleBlue.API.Controllers
 {
-    [Route("api/[controller]")]
+    [Route("api/")]
     [ApiController]
     public class LeadController : ControllerBase
     {
@@ -19,10 +20,11 @@ namespace DoodleBlue.API.Controllers
         {
             _mediator = mediator;
         }
-
-        public async Task<string> GetLead()
+        [HttpGet]
+        [Route("leadInformation")]
+        public async Task<IEnumerable<LeadInformationResponse>> GetLeadInformation()
         {
-            LeadRequest leadRequest = new LeadRequest();
+            LeadInformationRequest leadRequest = new LeadInformationRequest();
             var response = await _mediator.Send(leadRequest);
             return response;
         }
