@@ -20,12 +20,21 @@ namespace DoodleBlue.API.Controllers
         {
             _mediator = mediator;
         }
+
         [HttpGet]
         [Route("leadInformation")]
         public async Task<IEnumerable<LeadInformationResponse>> GetLeadInformation()
         {
             LeadInformationRequest leadRequest = new LeadInformationRequest();
             var response = await _mediator.Send(leadRequest);
+            return response;
+        }
+
+        [HttpPost]
+        [Route("leadInformation")]
+        public async Task<InsertLeadInformationResponse> PostLeadInformation(InsertLeadInformationRequest leadInformationRequest)
+        {
+            var response = await _mediator.Send(leadInformationRequest);
             return response;
         }
     }
