@@ -6,16 +6,6 @@ namespace DoodleBlue.Data.ConnectionConfiguration
 {
     public sealed class ConnectionString : IConnectionString
     {
-        //private readonly ConnectionStrings _ConnectionStrings;
-        //public ConnectionString(IOption<ConnectionStrings> ConnectionStrings)
-        //{
-        //    _ConnectionStrings = ConnectionConfiguration.Value;
-        //}
-
-        //public ConnectionStrings()
-        //{
-        //    public string DoodleBlueConnection { get; set; }
-        //}
         public ConnectionString(string value)
         {
             Value = value;
