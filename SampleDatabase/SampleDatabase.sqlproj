@@ -65,7 +65,7 @@
     <None Include="Tables\LeadSourceValue.sql" />
     <None Include="Tables\CurrentStatusValues.sql" />
     <None Include="Tables\ContactDetails.sql" />
-    <None Include="Tables\CREATE TABLE LeadInformation.sql" />
+    <None Include="Tables\LeadInformation.sql" />
     <None Include="Tables\CommunicationLogs.sql" />
   </ItemGroup>
 </Project>
