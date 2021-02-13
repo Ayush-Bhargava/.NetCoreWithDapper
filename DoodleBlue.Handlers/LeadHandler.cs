@@ -26,8 +26,8 @@ namespace DoodleBlue.Handlers
 
         public async Task<IEnumerable<LeadInformationResponse>> Handle(LeadInformationRequest request, CancellationToken cancellationToken = default)
         {
-            var flatIem = await _leadRepository.GetLead();
-            var leadInformation = _mapper.MapAll<LeadInformationResponse>(flatIem);
+            var flatItem = await _leadRepository.GetLead();
+            var leadInformation = _mapper.MapAll<LeadInformationResponse>(flatItem);
             return leadInformation;
         }
     }

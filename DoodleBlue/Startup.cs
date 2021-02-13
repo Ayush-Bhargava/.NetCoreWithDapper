@@ -1,14 +1,13 @@
 using DoodleBlue.Data;
-using DoodleBlue.Data.ConnectionConfiguration;
 using DoodleBlue.Handlers;
 using DoodleBlue.Repositories;
 using DoodleBlueMappers;
-using MediatR;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
+using Swashbuckle.AspNetCore.SwaggerGen;
 
 namespace DoodleBlue
 {
@@ -33,6 +32,7 @@ namespace DoodleBlue
                 .RegisterDapperData(Configuration)
                 .RegisterRequestHandler()
                 .RegisterAutoMappers()
+                .AddSwaggerGen()
                 .AddControllers();
         }
 
@@ -53,6 +53,14 @@ namespace DoodleBlue
             app.UseEndpoints(endpoints =>
             {
                 endpoints.MapControllers();
+            });
+
+            app.UseSwagger();
+
+            app.UseSwaggerUI(c =>
+            {
+                c.SwaggerEndpoint("/swagger/v1/swagger.json", "API V1");
+                c.RoutePrefix = string.Empty;
             });
         }
     }
