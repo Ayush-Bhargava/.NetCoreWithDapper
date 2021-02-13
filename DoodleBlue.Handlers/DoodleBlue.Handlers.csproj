@@ -7,7 +7,7 @@
   <ItemGroup>
     <ProjectReference Include="..\DoodleBlue.Contracts\DoodleBlue.Contracts.csproj" />
     <ProjectReference Include="..\DoodleBlue.Repositories\DoodleBlue.Repositories.csproj" />
-    <ProjectReference Include="..\DoodleBlueMappers\DoodleBlueMappers.csproj" />
+    <ProjectReference Include="..\DoodleBlueMappers\DoodleBlue.Mappers.csproj" />
   </ItemGroup>
 
 </Project>

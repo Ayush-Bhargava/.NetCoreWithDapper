@@ -13,7 +13,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DoodleBlue.Handlers", "Dood
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DoodleBlue.Data", "DoodleBlue.Data\DoodleBlue.Data.csproj", "{9CD5FA4E-CA80-45F7-8C49-F207626BA692}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DoodleBlueMappers", "DoodleBlueMappers\DoodleBlueMappers.csproj", "{C92E50BB-73F9-4CDE-A1B9-EEC23C84240A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DoodleBlue.Mappers", "DoodleBlueMappers\DoodleBlue.Mappers.csproj", "{C92E50BB-73F9-4CDE-A1B9-EEC23C84240A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

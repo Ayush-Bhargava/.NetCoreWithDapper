@@ -23,7 +23,7 @@
     <ProjectReference Include="..\DoodleBlue.Data\DoodleBlue.Data.csproj" />
     <ProjectReference Include="..\DoodleBlue.Handlers\DoodleBlue.Handlers.csproj" />
     <ProjectReference Include="..\DoodleBlue.Repositories\DoodleBlue.Repositories.csproj" />
-    <ProjectReference Include="..\DoodleBlueMappers\DoodleBlueMappers.csproj" />
+    <ProjectReference Include="..\DoodleBlueMappers\DoodleBlue.Mappers.csproj" />
   </ItemGroup>
 
 
