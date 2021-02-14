@@ -8,3 +8,5 @@
 👉  Added Auto Mapper
 
 👉  Added Swagger
+
+👉  Added Exception Handling Middleware
