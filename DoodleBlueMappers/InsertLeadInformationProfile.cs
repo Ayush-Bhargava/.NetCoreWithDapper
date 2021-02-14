@@ -8,7 +8,8 @@ namespace DoodleBlue.Mappers
     {
         public InsertLeadInformationProfile()
         {
-            CreateMap<InsertLeadInformation, InsertLeadInformationResponse>();
+            CreateMap<InsertLeadInformation, InsertLeadInformationResponse>()
+                .ForMember(dest => dest.LeadInformationId, opt => opt.MapFrom(x => x.LeadInformationId));
         }
     }
 }

@@ -37,6 +37,6 @@ namespace DoodleBlue.Data
                 result = results.FirstOrDefault();
             }
             return result;
-        }
+        } 
     }
 }

@@ -9,7 +9,7 @@ namespace DoodleBlue.Repositories
 {
     public class LeadRepository : ILeadRepository
     {
-        internal const string SPROC_GET_LEAD = "usp_GetLead";
+        internal const string SPROC_GET_LEAD = "usp_GetLad";
         internal const string SPROC_INSERT_LEAD = "usp_InsertLeadInformation";
 
         private readonly IDapperQuery _dapperQuery;
