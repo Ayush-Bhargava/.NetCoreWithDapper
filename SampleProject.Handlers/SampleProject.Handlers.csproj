@@ -1,0 +1,13 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\SampleProject.Contracts\SampleProject.Contracts.csproj" />
+    <ProjectReference Include="..\SampleProject.Mappers\SampleProject.Mappers.csproj" />
+    <ProjectReference Include="..\SampleProject.Repositories\SampleProject.Repositories.csproj" />
+  </ItemGroup>
+
+</Project>
