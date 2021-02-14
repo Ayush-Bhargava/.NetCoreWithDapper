@@ -3,17 +3,17 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30907.101
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DoodleBlue.API", "DoodleBlue\DoodleBlue.API.csproj", "{E507A08D-F228-4290-AD01-810CE96826F1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SampleProject.API", "DoodleBlue\SampleProject.API.csproj", "{E507A08D-F228-4290-AD01-810CE96826F1}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DoodleBlue.Contracts", "DoodleBlue.Contracts\DoodleBlue.Contracts.csproj", "{3450DF53-4331-48A7-AC61-78CFBA0E3884}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SampleProject.Contracts", "DoodleBlue.Contracts\SampleProject.Contracts.csproj", "{3450DF53-4331-48A7-AC61-78CFBA0E3884}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DoodleBlue.Repositories", "DoodleBlue.Repositories\DoodleBlue.Repositories.csproj", "{0C197E69-E9DA-4374-BDF4-BDA49EA4693C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SampleProject.Repositories", "DoodleBlue.Repositories\SampleProject.Repositories.csproj", "{0C197E69-E9DA-4374-BDF4-BDA49EA4693C}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DoodleBlue.Handlers", "DoodleBlue.Handlers\DoodleBlue.Handlers.csproj", "{453205BE-4C84-4096-9377-F986776C5608}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SampleProject.Handlers", "DoodleBlue.Handlers\SampleProject.Handlers.csproj", "{453205BE-4C84-4096-9377-F986776C5608}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DoodleBlue.Data", "DoodleBlue.Data\DoodleBlue.Data.csproj", "{9CD5FA4E-CA80-45F7-8C49-F207626BA692}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SampleProject.Data", "DoodleBlue.Data\SampleProject.Data.csproj", "{9CD5FA4E-CA80-45F7-8C49-F207626BA692}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DoodleBlue.Mappers", "DoodleBlueMappers\DoodleBlue.Mappers.csproj", "{C92E50BB-73F9-4CDE-A1B9-EEC23C84240A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SampleProject.Mappers", "DoodleBlueMappers\SampleProject.Mappers.csproj", "{C92E50BB-73F9-4CDE-A1B9-EEC23C84240A}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Database", "Database", "{D3639918-B2CA-4D1C-9F1F-F41528118D6B}"
 EndProject

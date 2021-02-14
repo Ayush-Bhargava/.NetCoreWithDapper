@@ -10,8 +10,8 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\DoodleBlue.Contracts\DoodleBlue.Contracts.csproj" />
-    <ProjectReference Include="..\DoodleBlue.Repositories\DoodleBlue.Repositories.csproj" />
+    <ProjectReference Include="..\DoodleBlue.Contracts\SampleProject.Contracts.csproj" />
+    <ProjectReference Include="..\DoodleBlue.Repositories\SampleProject.Repositories.csproj" />
   </ItemGroup>
 
 </Project>

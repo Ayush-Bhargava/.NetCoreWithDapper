@@ -9,7 +9,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\DoodleBlue.Contracts\DoodleBlue.Contracts.csproj" />
+    <ProjectReference Include="..\DoodleBlue.Contracts\SampleProject.Contracts.csproj" />
   </ItemGroup>
 
 </Project>

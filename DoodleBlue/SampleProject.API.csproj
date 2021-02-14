@@ -21,10 +21,10 @@
   
 
   <ItemGroup>
-    <ProjectReference Include="..\DoodleBlue.Data\DoodleBlue.Data.csproj" />
-    <ProjectReference Include="..\DoodleBlue.Handlers\DoodleBlue.Handlers.csproj" />
-    <ProjectReference Include="..\DoodleBlue.Repositories\DoodleBlue.Repositories.csproj" />
-    <ProjectReference Include="..\DoodleBlueMappers\DoodleBlue.Mappers.csproj" />
+    <ProjectReference Include="..\DoodleBlue.Data\SampleProject.Data.csproj" />
+    <ProjectReference Include="..\DoodleBlue.Handlers\SampleProject.Handlers.csproj" />
+    <ProjectReference Include="..\DoodleBlue.Repositories\SampleProject.Repositories.csproj" />
+    <ProjectReference Include="..\DoodleBlueMappers\SampleProject.Mappers.csproj" />
   </ItemGroup>
 
 
